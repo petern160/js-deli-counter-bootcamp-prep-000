@@ -26,7 +26,7 @@ function currentLine(line){
     lineName.push(i+1 + ". "+ line[i]);
   }
   console.log("The line is currently: " + lineName)
-  return "The line is currently: " + lineName.join(', ');
+  return `The line is currently: ${lineName.join},`
 }
 
 
