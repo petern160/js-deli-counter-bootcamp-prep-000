@@ -27,7 +27,7 @@ function currentLine(line){
   }
   console.log("The line is currently: " + lineName)
   return "The line is currently: " + lineName.join(', ');
-} 
+}
 
 
 
